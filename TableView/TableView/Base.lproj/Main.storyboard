@@ -81,6 +81,36 @@
             </objects>
             <point key="canvasLocation" x="28.985507246376812" y="83.705357142857139"/>
         </scene>
+        <!--Detail View Controller-->
+        <scene sceneID="uc6-oh-6IK">
+            <objects>
+                <viewController storyboardIdentifier="DetailView" id="UKE-vC-022" customClass="DetailViewController" customModule="TableView" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="WBb-8y-zoI">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qsw-EE-bmZ">
+                                <rect key="frame" x="186" y="437.5" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="mOi-jR-bd5"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="qsw-EE-bmZ" firstAttribute="centerX" secondItem="WBb-8y-zoI" secondAttribute="centerX" id="8KE-zU-UPv"/>
+                            <constraint firstItem="qsw-EE-bmZ" firstAttribute="centerY" secondItem="WBb-8y-zoI" secondAttribute="centerY" id="pWA-Yk-SG7"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="label" destination="qsw-EE-bmZ" id="m1N-GP-J7n"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="woZ-J9-JTR" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="899" y="84"/>
+        </scene>
     </scenes>
     <resources>
         <systemColor name="systemBackgroundColor">
